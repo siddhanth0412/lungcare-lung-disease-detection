@@ -12,16 +12,11 @@ lungcure is a fully functional and free lung disease detection web app with paym
 
 ## Instructions on testing the webapp
 
-1. Go to https://hidden-peak-62367.herokuapp.com/
-2. Login with the email admin@admin.com and password admin
-3. Click on the pay with card button and type in the stripe test data (email: admin@admin.com, cardnumber: 4242 4242 4242 4242, date: 01/21 and cvc 545)
-4. You're ready to upload your image and let it detect the lung disease for you.
-
+Login with the email admin@admin.com and password admin
 
 ## Configuration
 
-1. Create a copy of `sample.env` with the name `production.env` within the `app` directory.
-2. Update `pub_key` and `secret_key` within the `production.env` file with account specific keys.
+Create a copy of `sample.env` with the name `production.env` within the `app` directory.
 
 ## Screenshots
 ![Screenshot from 2019-10-04 10-05-13](https://user-images.githubusercontent.com/43213197/66182539-22352500-e693-11e9-9d7d-ae5490191bcf.png)
@@ -32,6 +27,7 @@ lungcure is a fully functional and free lung disease detection web app with paym
 
 ## Contributors
 
-* [Nishith Choudhary](https://github.com/nishu8?tab=repositories)
-* [Sayan Mondal](https://github.com/sayanmondal31)
-* [Florian Woelki](https://github.com/FlorianWoelki)
+* Siddhanth Tripathi
+* Sinchana Shetty
+* Somil Jain
+* Vanshika Shetty
