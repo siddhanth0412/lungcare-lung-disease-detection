@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LungCare </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../static/images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="../static/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/jquery-ui.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../static/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../static/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../static/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../static/css/aos.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/names.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap">
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <div class="site-logo mr-auto w-25"><a href="#home-section">LungCare</a></div>
+                    <div class="mx-auto text-center">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                                <li><a href="#home-section" class="nav-link">Home</a></li>
+                                <li><a href="#feature-section" class="nav-link">Features</a></li>
+                                <!-- <li><a href="#payment-section" class="nav-link">Payment</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="ml-auto w-25">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+                            <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                                <li class="cta">
+                                    <a href="#contact-section" class="nav-link">
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
+                            <span class="icon-menu h3"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="intro-section" id="home-section">
+            <div class="slide-1" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 mb-4">
+                                    <h1 data-aos="fade-up" data-aos-delay="100">we care about your health</h1>
+                                    <p data-aos="fade-up" data-aos-delay="100">a artificial intelligence classification for lung diseases.</p>
+                                </div>
+                                <div class="col-lg-5 ml-auto" style="padding-left:0;padding-right:0;">
+                                    <!-- login form -->
+                                    <form action="" method="POST" class="form-box" id="sign-up-form">
+                                        <h3 class="h4 text-black mb-4">Login</h3>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="login_email" placeholder="Email Addresss">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="login_pswd" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-primary btn-pill" onclick="checkLoginData()">Login</button>
+                                        </div>
+                                    </form>
+
+                                    <!-- <form action="/pay" method="POST" id="payment-form" style="display: none; text-align: center;">
+                                        <h3 class="h4 text-white mb-4">You need to pay for this service!</h3>
+                                        <script
+                                            src="https://checkout.stripe.com/checkout.js"
+                                            class="stripe-button"
+                                            data-key="{{ pub_key }}"
+                                            data-amount="2099"
+                                            data-name="lungcare"
+                                            data-description="Payment"
+                                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                            data-locale="auto"
+                                        ></script>
+                                    </form> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="text-center my-5 site-section" id="feature-section">
+            <div class="container">
+                <h2 class="section-title mb-3 text-center" data-aos="fade-down" data-aos-delay="500">Why is it so great?</h2>
+                <p class="lead grey-text w-responsive mx-auto mb-5" data-aos="fade-down" data-aos-delay="500">
+                    We are the best product on earth to analyze your lung disease images.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-4" data-aos="fade-right" data-aos-delay="500">
+                        <i class="fa fa-tachometer fa-3x text-danger"></i>
+                        <h5 class="font-weight-bold my-4 text-danger">High Speed</h5>
+                        <p class="grey-text mb-md-0 mb-5">
+                            We respect Your time. We provide the quickest results for you.
+                        </p>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fa fa-image fa-3x text-primary"></i>
+                        <h5 class="font-weight-bold my-4 text-primary">Multiple Images</h5>
+                        <p class="grey-text mb-md-0 mb-5">
+                            We support multiple image upload and giving you the best results.
+                        </p>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-left" data-aos-delay="500">
+                        <i class="fa fa-comments fa-3x text-success"></i>
+                        <h5 class="font-weight-bold my-4 text-success">Support</h5>
+                        <p class="grey-text mb-0">
+                            We provide the best support for you all day and all night long.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="site-section" id="payment-section">
+            <div class="container">
+                <h2 class="section-title mb-3 text-center" data-aos="fade-down" data-aos-delay="500">Pricing</h2>
+                <div class="card-deck mb-3" style="margin-top: 60px;">
+                    <div class="card mb-4 box-shadow" data-aos="fade-right" data-aos-delay="500">
+                        <div class="card-header text-center">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title text-center">
+                                $0
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <hr>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="text-muted"><i class="fa fa-check"></i> 1 image / minute</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Help center access</li>
+                                <li><i class="fa fa-times"></i> Email support</li>
+                                <li><i class="fa fa-times"></i> Multiple images upload</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card-header text-center">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title text-center">
+                                $15
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <hr>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="text-muted"><i class="fa fa-check"></i> Unlimited image / minute</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Help center access</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Email support</li>
+                                <li><i class="fa fa-times"></i> Multiple images upload</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow" data-aos="fade-left" data-aos-delay="500">
+                        <div class="card-header text-center">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title text-center">
+                                $29
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <hr>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="text-muted"><i class="fa fa-check"></i> Unlimited image / minute</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Help center access</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Email support</li>
+                                <li class="text-muted"><i class="fa fa-check"></i> Multiple images upload</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="site-section bg-light" id="contact-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <h2 class="section-title mb-3">Message Us</h2>
+                        <p class="mb-5"></p>
+                        <form method="post" data-aos="fade">
+                            <div class="form-group row">
+                                <div class="col-md-6 mb-3 mb-lg-0">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-6">
+                                    <input type="submit" class="btn btn-primary py-3 px-5 btn-block btn-pill" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="services-container">
+            <h1 class="h-primary">Team</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="../static/images/sid.png" alt="Siddhanth" width="250px">
+                    <div>
+                        <h2 class="h-secondary center">Siddhanth Tripathi</h2>
+                        <p class="center">Siddhanth Tripathi is a Computer Science student 
+                            studying at BMS Institute of Technology, Bengaluru. 
+                            He’s a very enthusiastic Tech-focused individual, 
+                            always learning about new implementations and 
+                            adapting new skills. As with recent enhancements, 
+                            Artificial Intelligence has been his locus point. He 
+                            hopes to make future enhancements to this project and has actively 
+                            participated in other revolving projects in the same domain. As a part of his 
+                            Project’s every academic year, he and his team have always prioritized social 
+                            responsibility as their priority and implemented their skills & knowledge 
+                            towards this goal.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../static/images/sinch.png" alt="Sinchana">
+                    <div>
+                        <h2 class="h-secondary center">Sinchana Shetty</h2>
+                        <p class="center">Sinchana Shetty is a Computer Science student 
+                            studying at BMS Institute of Technology, Bengaluru.
+                            She's a highly driven individual who is always 
+                            motivated to excel through her passion for work by 
+                            applying the gained knowledge and skills field with her 
+                            hardworking nature to come up with an innovative 
+                            solution. Always determined in looking for opportunities to build her carrier 
+                            in machine learning, and Artificial Intelligence. She is passionate about building 
+                            models that fix problems and focused to see what the learnings are after a 
+                            project has been completed, and trying to do differently the next time.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../static/images/somil.png" alt="Somil">
+                    <div>
+                        <h2 class="h-secondary center">Somil Jain</h2>
+                        <p class="center">Somil Jain is an energetic, ambitious person who 
+                            has developed a mature and responsible approach to any 
+                            task that he undertakes or situation that he is presented 
+                            with. He is graduating in Computer Science from BMS 
+                            Institute of Technology, Bengaluru and he has 
+                            developed a keen interest in the various domain in the 
+                            same field, Artificial Intelligence being one of his recent interest. Every 
+                            academic year he and his team have focused on different social causes and 
+                            worked on various small projects regarding the same.
+                             </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../static/images/vansh.png" alt="Vanshika">
+                    <div>
+                        <h2 class="h-secondary center">Vanshika Sharma</h2>
+                        <p class="center">Vanshika Sharma is a Computer Science student 
+                            studying at BMS Institute of Technology, Bengaluru. 
+                            Always an independent thinker seeking to learn more, 
+                            she has shown great promise by venturing beyond the 
+                            scope of the subject syllabi. She is passionate about 
+                            artificial intelligence and machine learning and participates in related work 
+                            whenever an opportunity offers itself. Her assignments, project work, and 
+                            zeal incite her enthusiasm to learn and find solutions for real world problems. </p>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <footer class="footer-section bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>About LungCare</h3>
+                        <p>
+                            LungCare is a artificial intelligence classification for most of the existing lung diseases.
+                            You can easily upload a image of your radiology scan and let it classify by our ai model.
+                            This project was built purely for Educational Purpose.
+                        </p>
+                    </div>
+                    <div class="col-md-4 offset-md-4">
+                        <h3>Subscribe</h3>
+                        <p>Subscribe to get more info in future</p>
+                        <form action="#" class="footer-subscribe">
+                            <div class="d-flex mb-5">
+                                <input type="text" class="form-control rounded-0" placeholder="Email">
+                                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <div class="border-top pt-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../static/js/jquery-ui.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/jquery.stellar.min.js"></script>
+    <script src="../static/js/jquery.countdown.min.js"></script>
+    <script src="../static/js/bootstrap-datepicker.min.js"></script>
+    <script src="../static/js/jquery.easing.1.3.js"></script>
+    <script src="../static/js/aos.js"></script>
+    <script src="../static/js/jquery.fancybox.min.js"></script>
+    <script src="../static/js/jquery.sticky.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
+    <script src="../static/js/index.js"></script>
+</body>
+
+</html>

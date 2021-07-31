@@ -1,0 +1,8 @@
+flask
+gunicorn
+stripe
+tensorflow==2.5.0
+keras==2.2.5
+matplotlib
+python-dotenv
+pillow
