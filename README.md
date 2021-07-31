@@ -30,5 +30,5 @@ Create a copy of `sample.env` with the name `production.env` within the `app` di
 
 ## Team
 
-![Team](outputs screenshots/4.png)
-![Team](outputs screenshots/5.png)
+![plot](outputs screenshots/4.png)
+![plot](outputs screenshots/5.png)
