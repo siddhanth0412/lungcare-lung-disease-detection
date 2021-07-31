@@ -27,8 +27,3 @@ Create a copy of `sample.env` with the name `production.env` within the `app` di
 * Sinchana Shetty
 * Somil Jain
 * Vanshika Shetty
-
-## Team
-
-![plot](outputs screenshots/4.png)
-![plot](outputs screenshots/5.png)
